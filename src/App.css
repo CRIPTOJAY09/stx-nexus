@@ -1,0 +1,105 @@
+/* General Container */
+.app-container {
+  font-family: "Poppins", sans-serif;
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 5px solid #05fabd;
+  border-radius: 15px;
+}
+
+.app-container.dark {
+  background-color: #000000;
+  color: white;
+}
+
+/* Title */
+h1.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Dark Mode Toggle */
+button.mode-toggle {
+  background-color: #05fabd;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+/* Form */
+.form-container {
+  background-color: #ffffff;
+  border: 2px solid #05fabd;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.app-container.dark .form-container {
+  background-color: #000000;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #05fabd;
+  border-radius: 5px;
+}
+
+.app-container.dark .form-container input {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+/* Buttons */
+button.create-button {
+  background-color: #05fabd;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.payment-button {
+  background-color: #fcbf49;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.whatsapp-button {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #25d366;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Active Orders */
+.orders-container,
+.history-container {
+  margin-top: 2rem;
+}
+
+.order-card {
+  border: 2px solid #05fabd;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
